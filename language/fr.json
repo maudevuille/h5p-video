@@ -92,42 +92,42 @@
       ]
     },
     {
-      "label":"Accessibility",
+      "label":"Accessabilité",
       "fields":[
         {
-          "label":"Add video track",
+          "label":"Ajouter une piste vidéo",
           "entity":"Track",
           "field":{
-            "label":"Track",
+            "label":"Piste",
             "fields":[
               {
-                "label":"Track label"
+                "label":"Titre de la piste"
               },
               {
-                "label":"Type kind, refer to <a href=https://html.spec.whatwg.org/multipage/embedded-content.html#the-track-element>HTML living standard</a>",
+                "label":"Pour l'attribut kind, se référer à <a href=https://html.spec.whatwg.org/multipage/embedded-content.html#the-track-element>HTML living standard</a>",
                 "default":"descriptions",
                 "options":[
                   {
-                    "label":"Subtitles"
+                    "label":"Sous-titres"
                   },
                   {
-                    "label":"Captions"
+                    "label":"Légende"
                   },
                   {
                     "label":"Descriptions"
                   },
                   {
-                    "label":"Chapters"
+                    "label":"Chapitres"
                   }
                 ]
               },
               {
-                "label":"Track file (WebVTT)",
+                "label":"Fichier de sous-titres/piste (WebVTT)",
                 "default":"en",
-                "description":"Must be a valid BCP 47 language tag. If the kind attribute is set to subtitles, then srclang must be defined."
+                "description":"Doit être une balise de langue BCP 47 valide. Si l'attribut kind est défini dans les sous-titres, définir srclang."
               },
               {
-                "label":"Track file (WebVTT)"
+                "label":"Fichier texte de sous-titre (WebVTT)"
               }
             ]
           }
